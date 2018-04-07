@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <form action="form.php" method="post">
+       <label for="imie">Imię:</label><br/>
+       <input type="text" name="name" id="name"><br/>
+       <label for="nazwisko">Nazwisko</label><br/>
+       <input type="text" name="nazwisko" id="nazwisko"><br/>
+       
+       <label for="email">Email</label><br/>
+       <input type="text" name="email" id="email"><br/>
+       <label for="number">Numer telefonu</label><br/>
+       <input type="number" name="number" id="number" ><br/>
+       <label for="wiadomosc">Wiadomość</label><br/>
+       <textarea maxlength="100"></textarea><br/><br/>
+       
+       <input type="submit" value="Wyślij"><br/><br/>
+   </form>
+   <form method="POST" action="https://formspree.io/artur.mlody11@wp.pl"><br/>
+       <input type="email" name="email" placeholder="artur.mlody11@wp.pl"><br/><br/>
+       <textarea name="message" placeholder="Message"></textarea><br/><br/>
+       <button type="submit">Send</button>
+   </form>
+    
+</body>
+</html>
