@@ -1,29 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
+
 <body>
-   <form action="https://formspree.io/artur.mlody11@wp.pl" method="post">
-       <label for="imie">Imię:</label><br/>
-       <input type="text" name="name" id="name"><br/>
-       <label for="nazwisko">Nazwisko</label><br/>
-       <input type="text" name="nazwisko" id="nazwisko"><br/>
-       <input type="radio" name="gender" value="male">Mężczyzna<br/>
-       <input type="radio" name="gender" value="female">Kobieta<br/>
-       <input type="radio" name="gender" value="other">Inna<br/>
-       
-       <label for="email">Email</label><br/>
-       <input type="text" name="email" id="email"><br/>
-       <label for="number">Numer telefonu</label><br/>
-       <input type="number" name="number" id="number" ><br/>
-       <label for="wiadomosc">Wiadomość</label><br/>
-       <textarea maxlength="100"></textarea><br/><br/>
-       
-       <input type="submit" value="Wyślij"><br/><br/>
-   </form>
-   
-    
+    <form action="https://formspree.io/artur.mlody11@wp.pl" method="post">
+        <fieldset>
+            <legend>Personalia</legend>
+            <label for="imie">Imię:</label><br/>
+            <input type="text" name="name" id="name"><br/>
+            <label for="nazwisko">Nazwisko</label><br/>
+            <input type="text" name="nazwisko" id="nazwisko"><br/>
+            <input type="radio" name="gender" value="male">Mężczyzna<br/>
+            <input type="radio" name="gender" value="female">Kobieta<br/>
+            <input type="radio" name="gender" value="other">Inna<br/>
+            </fieldset>
+            <fieldset>
+            <legend>Adres</legend>
+            <label for="miejscowosc">Miejscowość</label><br/>
+            <input type="text" name="miejscowosc" id="miejscowosc"><br/>
+            <label for="Kod">Kod pocztowy</label><br/>
+            <input type="text" name="kod" id="kod"><br/><br/>
+            <select>
+           <option value="Wielkopolskie">Wielkopolskie</option>
+           <option value="Mazowieckie">Mazowieckie</option>
+           <option value="Opolskie">Opolskie</option>
+       </select>
+       </fieldset>
+        
+        <fieldset>
+            <legend>Kontakt</legend>
+            <label for="email">Email</label><br/>
+            <input type="text" name="email" id="email"><br/>
+            <label for="number">Numer telefonu</label><br/>
+            <input type="number" name="number" id="number"><br/>
+            <label for="wiadomosc">Wiadomość</label><br/>
+            <textarea maxlength="100"></textarea><br/><br/>
+        </fieldset><br/>
+
+        <input type="submit" value="Wyślij"><br/><br/>
+    </form>
+
+
 </body>
+
 </html>
