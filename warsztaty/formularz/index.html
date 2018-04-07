@@ -5,11 +5,14 @@
     <title>Document</title>
 </head>
 <body>
-   <form action="form.php" method="post">
+   <form action="https://formspree.io/artur.mlody11@wp.pl" method="post">
        <label for="imie">Imię:</label><br/>
        <input type="text" name="name" id="name"><br/>
        <label for="nazwisko">Nazwisko</label><br/>
        <input type="text" name="nazwisko" id="nazwisko"><br/>
+       <input type="radio" name="gender" value="male">Mężczyzna<br/>
+       <input type="radio" name="gender" value="female">Kobieta<br/>
+       <input type="radio" name="gender" value="other">Inna<br/>
        
        <label for="email">Email</label><br/>
        <input type="text" name="email" id="email"><br/>
@@ -20,11 +23,7 @@
        
        <input type="submit" value="Wyślij"><br/><br/>
    </form>
-   <form method="POST" action="https://formspree.io/artur.mlody11@wp.pl"><br/>
-       <input type="email" name="email" placeholder="artur.mlody11@wp.pl"><br/><br/>
-       <textarea name="message" placeholder="Message"></textarea><br/><br/>
-       <button type="submit">Send</button>
-   </form>
+   
     
 </body>
 </html>
