@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <form action="https://formspree.io/artur.mlody11@wp.pl" method="post">
         <fieldset>
-            <legend>Formularz zgłoszeniowy</legend>
             <label for="imie">Imie</label><br/>
             <input type="text" name="imie" id="imie"><br/>
             <label for="nazwisko">Nazwisko</label><br/>
@@ -23,20 +23,21 @@
             <input type="radio" name="gender"> Kobieta <br/>
             <input type="radio" name="gender"> Inna <br/>
             <br/>
+            <label for="miasto">Wybierz miasto:</label><br/>
             <select>
             <option value="krakow">Kraków</option>
             <option value="warszawa">Warszawa</option>
             <option value="gdansk">Gdańsk</option>
-        </select>
+            </select>
             <br/> <br/>
             <textarea maxlength="100"></textarea>
             <br/>
-            
             <label><input type="checkbox" >Wyrażam zgode na przetwarzanie danych osobowych. </label>
             <br/>
-        </fieldset>
+        
         <br/>
         <input type="submit" value="Wyślij">
+        </fieldset>
     </form>
 
 </body>

@@ -1,0 +1,28 @@
+fieldset {
+    background-color: #213b50;
+    width: 50%;
+    color: white;
+}
+input[type="text"], input[type="tel"],select,option[value="krakow"],option[value="warszawa"],option[value="gdansk"], textarea
+{
+    background-color: #2b4a64;
+    border: 1px solid #2b4a64;
+    color: white;
+    
+    
+}
+input:focus, oprion:focus, textarea:focus{
+    background-color: #4e708c;
+}
+
+
+input[type="submit"]{
+    background-color: #1ac056;
+    border: 1px solid #1ac056;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
