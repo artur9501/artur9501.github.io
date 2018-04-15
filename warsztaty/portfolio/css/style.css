@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* General style start*/
+
+span {
+    color: #1ac056;
+}
+
+section {
+    padding: 0 80px 100px;
+}
+
+a {
+    transition: all 0.3s;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* General style end*/
+
+nav {
+    width: 100%;
+    top: 0px;
+    font-size: 25px;
+    float: right;
+    background-color: white;
+    position: fixed;
+    z-index: 20;
+
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1ac056;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+#main-header {
+    background-image: url(../img/header-background.jpg);
+    height: 700px;
+    background-position: top;
+    background-size: cover;
+    color: white;
+}
+
+.header-content {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-content h1 {
+    font-size: 100px;
+}
+
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+}
+
+#about figure {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 0px;
+}
+
+#about figure img {
+    max-width: 100%;
+    max-height: 350px;
+    border: 10px;
+    border-radius: 15px;
+}
+
+#about article {
+    width: 50%;
+    float: left;
+}
+
+#skills p,
+#skills .skills-icon {
+    text-align: center;
+
+
+}
+
+#skills-icon .skills-icon-item {}
