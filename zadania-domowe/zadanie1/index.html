@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -19,24 +18,24 @@
             <label for="telefon">Nr telefonu</label><br/>
             <input type="tel" name="telefon" id="telefon"><br/><br/> Płeć
             <br/>
-            <input type="radio" name="gender"> Mężczyzna<br/>
-            <input type="radio" name="gender"> Kobieta <br/>
-            <input type="radio" name="gender"> Inna <br/>
+            <label><input type="radio" name="gender">Mężczyzna</label><br/>
+            <label><input type="radio" name="gender">Kobieta</label><br/>
+            <label><input type="radio" name="gender">Inna</label><br/>
             <br/>
             <label for="miasto">Wybierz miasto:</label><br/>
-            <select>
-            <option value="krakow">Kraków</option>
-            <option value="warszawa">Warszawa</option>
-            <option value="gdansk">Gdańsk</option>
+            <select id="miasto">
+                <option value="krakow">Kraków</option>
+                <option value="warszawa">Warszawa</option>
+                <option value="gdansk">Gdańsk</option>
             </select>
             <br/> <br/>
             <textarea maxlength="100"></textarea>
             <br/>
             <label><input type="checkbox" >Wyrażam zgode na przetwarzanie danych osobowych. </label>
             <br/>
-        
-        <br/>
-        <input type="submit" value="Wyślij">
+
+            <br/>
+            <input type="submit" value="Wyślij">
         </fieldset>
     </form>
 
