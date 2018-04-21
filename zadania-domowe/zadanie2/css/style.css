@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: white;
+    background-color: black;
+
+}
+
+img {
+    width: 100%;
+    background-size: cover;
+}
+
+img > h2 {
+    position: absolute;
+    top: 50%;
+    width: 100%
+}
+
+@media (min-width: 1170px) {
+    img {
+        width: 100%;
+    }
+}

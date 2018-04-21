@@ -108,4 +108,95 @@ nav ul li a:hover {
 
 }
 
-#skills-icon .skills-icon-item {}
+#skills .skills-icon .skills-icon-item {
+    display: inline-block;
+
+}
+
+#portfolio .portfolio-items {
+    text-align: center;
+    font-size: 0px;
+}
+
+#portfolio .portfolio-items .portfolio-item {
+    height: 350px;
+    display: inline-block;
+    width: 33.33%;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    font-size: initial;
+    display: inline-block;
+}
+
+#portfolio .portfolio-items #portfolio-item-1 {
+    background-image: url(../img/portfolio1.jpg);
+
+}
+
+#portfolio .portfolio-items #portfolio-item-2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+
+#portfolio .portfolio-items #portfolio-item-3 {
+    background-image: url(../img/portfolio3.jpg);
+}
+
+#portfolio .portfolio-items .item-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+}
+
+#portfolio .portfolio-items .item-mask:hover {
+    opacity: 1;
+}
+
+.mask-content {
+    position: relative;
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.item-content-inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    right: 0px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+
+#kontakt {
+    background-color: red
+}
+
+.contact-social-icons {
+    display: inline-block;
+}
+
+.fb {
+    float: left;
+}
+
+.gp {
+
+    float: left;
+}
+
+.tw {
+    float: left;
+}
+
+.ln {
+    float: left;
+}
