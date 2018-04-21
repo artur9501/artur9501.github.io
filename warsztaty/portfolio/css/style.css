@@ -40,6 +40,10 @@ nav {
 
 }
 
+.toggle #drop {
+    display: none;
+}
+
 nav ul {
     float: right;
 }
@@ -212,6 +216,7 @@ input[type="text"] {
     height: 50px;
     border: #2b4a64;
     background-color: #2b4a64;
+    color: white;
 
 }
 
@@ -275,4 +280,46 @@ footer {
 
 footer > p {
     margin: 0px;
+}
+
+
+@media all and (max-width:1200px) {}
+
+
+
+@media all and (max-width:992px) {
+    nav .togle {
+        display: block;
+        background-color: #fff;
+        padding: 0 20px;
+        color: #1ac056;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
+    }
+    ul {
+        display: none;
+    }
+    nav #drop:checked + ul {
+        display: block;
+    }
+    li {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+    }
+
+}
+
+@media all and (max-width:768px) {
+    padding: 0 40px 50px;
+    {}
+}
+
+
+@media all and (max-width:576px) {
+    padding: 0 10px 30px;
 }
