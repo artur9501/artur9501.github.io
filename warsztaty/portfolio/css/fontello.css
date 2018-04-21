@@ -60,6 +60,7 @@
 .icon-twitter:before {
     content: '\f099';
     font-size: 45px;
+    color: aqua;
 }
 
 /* '' */
@@ -67,6 +68,7 @@
 .icon-gplus:before {
     content: '\f0d5';
     font-size: 45px;
+    color: red;
 }
 
 /* '' */
@@ -74,6 +76,7 @@
 .icon-facebook-squared:before {
     content: '\f308';
     font-size: 45px;
+    color: blue;
 }
 
 /* '' */
@@ -81,6 +84,7 @@
 .icon-linkedin-squared:before {
     content: '\f30c';
     font-size: 45px;
+    color: #0077b5;
 }
 
 /* '' */
