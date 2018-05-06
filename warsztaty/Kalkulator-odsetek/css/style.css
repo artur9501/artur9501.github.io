@@ -1,0 +1,15 @@
+#kalkulator {
+    border: 1px solid #000;
+    padding: 30px;
+    background: #ccc;
+}
+
+.row {
+    margin: 10px 0;
+
+}
+
+.row input,
+.row select {
+    margin-right: 15px;
+}
