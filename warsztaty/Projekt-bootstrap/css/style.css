@@ -6,6 +6,10 @@
 
 }
 
+#main-nav.scroll {
+    background-color: rgba(14, 216, 214, 0.75);
+}
+
 #main-header {
     background-image: url(../img/header/tlo1.png), url(../img/header/pictures_on_the_wall.jpg);
     height: 100vh;
@@ -208,4 +212,16 @@ h4 {
     background-color: #0ed8d6;
 }
 
-#meet-us {}
+/* kontakt */
+
+#contact-us {
+    background-image: url(../img/header/tlo1.png), url(../img/footer/world-map.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#contact-us .contact-form contact-form-column input,
+#contact .contact-form contact-form-column textarea {}
