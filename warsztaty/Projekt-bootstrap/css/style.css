@@ -1,7 +1,7 @@
 /* nawigacja */
 
 #main-nav {
-    font-family: montserrat;
+    font-family: 'Montserrat';
     font-style: italic;
 
 }
@@ -27,12 +27,12 @@
 }
 
 #kontener > p {
-    font-family: RobotoSlab;
+    font-family: 'RobotoSlab';
     font-size: 40px;
 }
 
 h1 {
-    font-family: montserrat;
+    font-family: 'Montserrat';
 }
 
 
@@ -56,7 +56,7 @@ h2 {
     font-family: montserrat;
 }
 
-#services > p {
+p {
     font-size: 20px;
     font-family: "RobotoSlab";
     font-style: italic;
@@ -92,4 +92,84 @@ h4 {
     font-style: italic;
     font-size: 15px;
     text-align: center;
+    font-family: 'RobotoSlab';
+}
+
+/* End of services */
+
+/* Portfolio */
+
+.opis-portfolio {
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'RobotoSlab';
+
+}
+
+#portfolio-image-background-1 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+#portfolio-image-background-2 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+
+#portfolio-image-background-3 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#portfolio-image-background-4 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+#portfolio-image-background-5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+#portfolio-image-background-6 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+#portfolio {
+    background-color: #f7f7f7;
+}
+
+#portfolio .portfolio-item {
+    background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-image-background {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+#portfolio .portfolio-item .portfolio-image-background .portfolio-image-mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 216, 214, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2em;
+    opacity: 0;
+}
+
+#portfolio .portfolio-image {
+    overflow: hidden;
+}
+
+#portfolio .portfolio-item .portfolio-image-background:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+#portfolio .portfolio-item .portfolio-image-background .portfolio-image-mask:hover {
+    opacity: 1;
 }
