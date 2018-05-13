@@ -58,35 +58,34 @@ h2 {
 
 #services > p {
     font-size: 20px;
-    font-family: RobotoSlab;
+    font-family: "RobotoSlab";
     font-style: italic;
     text-align: center;
 }
 
 h4 {
-    font-family: montserrat;
+    font-family: "Montserrat";
     text-align: center;
 }
 
 
-.kwadrat-ikony {
-    width: 50px;
-    height: 50px;
+#icons .icon {
+    width: 80px;
+    height: 80px;
     background-color: #0ed8d6;
-    border: 2px solid #0ed8d6;
-    border-radius: 25px;
     text-align: center;
-    line-height: 50px;
-    position: relative;
-    transform: translateX(-50%);
-    left: 50%;
+    line-height: 80px;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+    transition: all 1s;
 }
 
-.fa-briefcase,
-.fa-cloud-download-alt,
-.fa-comment {
-    color: white;
-    font-size: 25px;
+#icons .icon:hover {
+    transform: rotate(180deg);
+    background-color: #fff;
+    border: 2px solid #0ed8d6;
+    color: #0ed8d6;
 }
 
 .opis-serwisu {
