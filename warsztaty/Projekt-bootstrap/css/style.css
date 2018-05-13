@@ -173,3 +173,15 @@ h4 {
 #portfolio .portfolio-item .portfolio-image-background .portfolio-image-mask:hover {
     opacity: 1;
 }
+
+/* opis meet-us */
+
+.opis-meet-us {
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'RobotoSlab';
+
+}
+
+#meet-us {}
