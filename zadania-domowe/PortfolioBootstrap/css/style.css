@@ -13,7 +13,6 @@ h1 {
 
 h2 {
     font-size: 40px;
-    text-align: center;
 }
 
 p {
@@ -47,7 +46,7 @@ nav#main-nav a.colorF {
 
 section#o-mnie {
     background-color: #f9fcfe;
-    margin-top: 15px;
+    text-align: center;
 }
 
 section#o-mnie img {
@@ -78,26 +77,164 @@ section#skills p {
     font-size: 20px;
 }
 
-#portfolio-background-1 {
+#portfolio h2 {
+    text-align: center;
+}
+
+#portfolio-item-1 {
     background-image: url(../img/portfolio1.jpg);
     height: 350px;
     width: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#portfolio-background-2 {
+#portfolio-item-2 {
     background-image: url(../img/portfolio2.jpg);
     height: 350px;
     width: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
-#portfolio-background-3 {
+#portfolio-item-3 {
     background-image: url(../img/portfolio3.jpg);
     height: 350px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+#portfolio .portfolio-items {
+    font-size: 0px;
+    text-align: center;
+}
+
+#portfolio .portfolio-item .item-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+}
+
+#portfolio .portfolio-item .item-mask:hover {
+    opacity: 1;
+}
+
+.mask-content {
+    position: relative;
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.item-content-inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    right: 0px;
+    padding: 5px;
+
+}
+
+.item-content-inner p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.item-content-inner h4 .projekt-link {
+    text-align: center;
+}
+
+#kontakt {
+    background-color: #213b50;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.contact-social-icons a {
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    height: 38px;
+    line-height: 38px;
+    width: 38px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+
+}
+
+.contact-social-icons a:hover {
+    background-color: white;
+    color: #213b50;
+}
+
+#imie {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#email {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#wprowadz {
+    text-align: center;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 50px;
+    border: #2b4a64;
+    background-color: #2b4a64;
+    color: white;
+
+}
+
+input[type="text"]:focus {
+    background-color: #426684;
+}
+
+input[type="submit"] {
+    width: auto;
+    padding: 15px 30px;
+    float: right;
+    text-transform: uppercase;
+    border: 1px solid #1ac056;
+    background-color: #1ac056;
+    color: #fff;
+    font-weight: 600;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: #1ac056;
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    background-color: #2b4a64;
+}
+
+textarea:focus {
+    background-color: #426684;
+}
+
+footer p {
+    font-size: 25px;
+    background-color: #142634;
+    text-align: center;
+    margin: 0;
 }
