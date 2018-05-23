@@ -149,7 +149,11 @@ section#skills p {
     text-align: center;
 }
 
-.item-content-inner h4 .projekt-link {
+.item-content-inner h4 {
+    text-align: center;
+}
+
+.item-content-inner .projekt-link {
     text-align: center;
 }
 
