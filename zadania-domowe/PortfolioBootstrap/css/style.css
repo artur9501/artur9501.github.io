@@ -45,13 +45,34 @@ nav#main-nav a.colorF {
     text-align: center;
 }
 
+section#o-mnie {
+    background-color: #f9fcfe;
+    margin-top: 15px;
+}
+
 section#o-mnie img {
     width: 100%;
-    height: 50vh;
+    height: 90vh;
+    border-radius: 10%;
 }
 
 section#o-mnie p {
     color: #000;
     font-size: 20px;
     text-align: justify;
+}
+
+section#skills {
+    margin-top: 15px;
+}
+
+section#skills img {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+
+section#skills p {
+    color: #000;
+    font-size: 20px;
 }
