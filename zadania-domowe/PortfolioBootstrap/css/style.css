@@ -64,6 +64,7 @@ section#o-mnie p {
 
 section#skills {
     margin-top: 15px;
+    text-align: center;
 }
 
 section#skills img {
@@ -75,4 +76,28 @@ section#skills img {
 section#skills p {
     color: #000;
     font-size: 20px;
+}
+
+#portfolio-background-1 {
+    background-image: url(../img/portfolio1.jpg);
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+#portfolio-background-2 {
+    background-image: url(../img/portfolio2.jpg);
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+
+#portfolio-background-3 {
+    background-image: url(../img/portfolio3.jpg);
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
