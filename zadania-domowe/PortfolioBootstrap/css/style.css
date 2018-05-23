@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+    font-size: 40px;
+}
+
+span {
+    color: #1ac056;
+}
+
+nav {}
+
+nav#main-nav a.colorF {
+    color: #1ac056;
+    opacity: 1;
+}
+
+#main-header {
+    background-image: url(../img/header-background.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section#o-mnie img {
+    width: 100%;
+    height: 50vh;
+}
+
+section#o-mnie p {
+    color: #000;
+    font-size: 20px;
+    text-align: justify;
+}

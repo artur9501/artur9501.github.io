@@ -1,0 +1,41 @@
+header {
+    background-image: url(../../img/background.png);
+    height: 85vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.kontener {
+    color: #fff;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 20%;
+}
+
+.kontakt {
+    position: absolute;
+    top: 10px;
+    left: 70%;
+}
+
+.kontener .fa-university {
+    color: $yellow-color;
+    font-size: 35px;
+}
+
+.kontener .fa-phone {
+    font-size: 35px;
+}
+
+#first-call {
+    font-size: 10px;
+}
+
+#sec-nb {
+    padding: 5px;
+}

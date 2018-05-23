@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0; }
+
+footer {
+  height: 15vh;
+  background-color: #292929; }
+
+header {
+  background-image: url(../../img/background.png);
+  height: 85vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.kontener {
+  color: #fff;
+  position: relative; }
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 20%; }
+
+.kontakt {
+  position: absolute;
+  top: 10px;
+  left: 70%; }
+
+.kontener .fa-university {
+  color: #ecd407;
+  font-size: 35px; }
+
+.kontener .fa-phone {
+  font-size: 35px; }
+
+#first-call {
+  font-size: 10px; }
+
+#sec-nb {
+  padding: 5px; }
