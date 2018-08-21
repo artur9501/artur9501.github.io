@@ -51,7 +51,7 @@ section#o-mnie {
 
 section#o-mnie img {
     width: 100%;
-    height: 90vh;
+    height: 65vh;
     border-radius: 10%;
 }
 
@@ -153,8 +153,12 @@ section#skills p {
     text-align: center;
 }
 
-.item-content-inner .projekt-link {
+.item-content-inner {
     text-align: center;
+}
+
+.item-content-inner .fa {
+    color: #fff;
 }
 
 #portfolio .padNo {
